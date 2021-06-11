@@ -19,6 +19,6 @@ Comandos (projeto github)
 mvn clean package
 java -jar target/github-0.0.1.jar
 
-Comandos (pasta Prova)
+Comandos (pasta Desafio-Jump-Label)
 docker-compose config
 docker-compose up --build
