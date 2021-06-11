@@ -1,0 +1,15 @@
+version: '2'
+services:
+  repositorio-server:
+    container_name: api-repositorio
+    build:
+      context: github
+      dockerfile: Dockerfile
+    image: api-server:latest
+    ports:
+      - 8080:8080
+    networks:
+      - spring-cloud-network
+networks:
+  spring-cloud-network:
+    driver: bridge
